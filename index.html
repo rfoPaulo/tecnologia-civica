@@ -1,185 +1,354 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Saúde Mental - IAPI</title>
-  <link rel="stylesheet" href="styles.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-  <link rel="icon" href="saude_mental_image.png" type="image/png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IAPI: Sua Voz Faz a Diferença!</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/tec_civica_image.png" type="image/png">
+    <!-- Link para Font Awesome (para ícones) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-  <!-- Cabeçalho -->
-  <header>
-    <div class="container">
-      <img src="saude_mental_image.png" alt="Ilustração Saúde Mental" class="header-image-circle">
-      <h1><i class="fa-solid fa-heart"></i> Saúde Mental IAPI</h1>
-      <p>Guia de recursos e autocuidado para a comunidade.</p>
-    </div>
-  </header>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="#inicio">IAPI Conectado</a>
+            </div>
+            <ul>
+                <li><a href="#inicio" class="active">Início</a></li>
+                <li><a href="#por-que-participar">Por Que Participar?</a></li>
+                <li><a href="#como-reportar">Como Reportar?</a></li>
+                <li><a href="#resolvidos">Sucessos</a></li>
+                <li><a href="#dicas">Dicas</a></li>
+                <li><a href="#painel">Painel</a></li>
+                <li><a href="#iniciativas">Outras Iniciativas</a></li>
+                <li><a href="#faq">FAQ</a></li>
+            </ul>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
 
-  <!-- Navegação -->
-  <nav>
-    <ul class="menu">
-      <li><a href="#servicos"><i class="fa-solid fa-hospital"></i> Serviços</a></li>
-      <li><a href="#autocuidado"><i class="fa-solid fa-heart-pulse"></i> Autocuidado</a></li>
-      <li><a href="#aplicativos"><i class="fa-solid fa-mobile-screen-button"></i> Aplicativos</a></li>
-      <li><a href="#artigos"><i class="fa-solid fa-book"></i> Artigos</a></li>
-      <li><a href="#recursos"><i class="fa-solid fa-link"></i> Recursos</a></li>
-    </ul>
-  </nav>
+    <main>
+        <section id="inicio" class="hero">
+            <div class="hero-content">
+                <h1>IAPI: Sua Voz Faz a Diferença!</h1>
+                <p>Um guia prático e um espaço para usar a internet e ajudar a melhorar nossa comunidade.</p>
+                <a href="#como-reportar" class="cta-button">Aprenda a Reportar Problemas</a>
+            </div>
+        </section>
 
-  <main>
-    <!-- Serviços Section -->
-    <section id="servicos" class="section">
-      <h2><i class="fa-solid fa-clinic-medical"></i> Serviços de Saúde Mental </h2>
-      <div class="cards">
-        <div class="card">
-          <h3>CVV - Centro de Valorização da Vida</h3>
-          <p><strong>Telefone:</strong> 188 (24 horas)</p>
-          <p><a href="https://www.cvv.org.br/chat/" target="_blank">Chat Online</a></p>
-        </div>
-        <div class="card">
-          <h3>Clínica da Família IAPI</h3>
-          <p><strong>Endereço:</strong> Rua Três de Abril, 90</p>
-          <p><strong>Telefone:</strong> (51) 3289-3445</p>
-          <p>Acolhimento e encaminhamento.</p>
-        </div>
-        <div class="card">
-          <h3>CAPS do IAPI</h3>
-          <p><strong>Endereço:</strong> Rua Três de Abril, 2</p>
-          <p><strong>Telefone:</strong> (51) 3230-6363</p>
-          <p>Atendimento especializado.</p>
-        </div>
-      </div>
-    </section>
+        <section id="por-que-participar" class="content-section">
+            <h2><i class="fas fa-users"></i> Por que sua participação online é importante?</h2>
+            <p>Nosso bairro é a nossa casa! Quando usamos a internet para mostrar os problemas para a prefeitura, ajudamos a construir um lugar melhor para todos.</p>
+            <ul>
+                <li><strong>Cidade Mais Justa:</strong> Pedir melhorias é um direito seu e ajuda a prefeitura a saber onde agir.</li>
+                <li><strong>Soluções Mais Rápidas:</strong> Muitos problemas (lixo, buracos, falta de luz) podem ser resolvidos mais rápido se a prefeitura souber deles pelos canais certos.</li>
+                <li><strong>Juntos Somos Mais Fortes:</strong> Mostrar o que precisa melhorar fortalece nossa comunidade!</li>
+            </ul>
+            <p><strong>Achava que não adiantava?</strong> Este guia vai te ajudar a tentar de um jeito mais fácil!</p>
+        </section>
 
-  <!-- Auto Cuidado Section -->
-    <section id="autocuidado" class="section">
-      <h2><i class="fa-solid fa-heart-circle-plus"></i> Dicas de Autocuidado e Bem-Estar</h2>
-      <ul>
-        <li>Respire fundo: Dedique alguns minutos por dia para respirações profundas.</li>
-        <li>Mantenha uma alimentação balanceada.</li>
-        <li>Exercite-se regularmente.</li>
-        <li>Desconecte-se: Reserve tempo para descansar e desconectar das redes sociais.</li>
-        <li>Evite comparações</li>
-        <li>Pratique mindfulness: Meditação, respiração profunda ou apenas 5 minutos de silêncio para observar seus pensamentos.</li>
-        <li>Anote emoções, gratidões ou metas. Ajuda a organizar a mente e liberar tensões.</li>
-        <li>Passe tempo na natureza: Caminhar em um parque ou observar o céu ajuda a recarregar as energias.</li>
-        <li>Abrace o ócio: Não precisa ser produtivo(a) o tempo todo. Assistir a um filme ou "não fazer nada" também é válido.</li>
-        <li>Peça ajuda: Não hesite em buscar apoio de amigos, familiares ou profissionais (terapia não é só para crises!).</li>
-      </ul>
-    </section>
+        <section id="como-reportar" class="content-section">
+            <h2><i class="fas fa-bullhorn"></i> Como Reportar Problemas à Prefeitura?</h2>
+            <p>A prefeitura disponibiliza canais digitais para facilitar sua comunicação. Os principais são o aplicativo <strong><a href="https://play.google.com/store/apps/details?id=br.gov.rs.portoalegre.app&hl=pt_BR" target="_blank" rel="noopener noreferrer">156+ POA</a></strong> e o site <strong><a href="https://156web.procempa.com.br/" target="_blank" rel="noopener noreferrer">156+ Web</a></strong>.</p>
+            <p>Clique nos ícones abaixo para ver o passo a passo de como reportar diferentes tipos de problemas:</p>
+            <p class="note"><strong>Lembre-se:</strong> Se quiser, você sempre pode marcar a opção "Reclamação Sigilosa" no final.</p>
 
-    <!-- Aplicativos Section -->
-    <section id="aplicativos" class="section">
-      <h2><i class="fa-solid fa-mobile-screen-button"></i> Aplicativos Recomendados</h2>
-      <div class="apps">
-        <div class="app">
-          <h3 class="h3-com-icone">
-            <img src="icons/cingulo.webp" alt="Outro ícone">Cingulo</h3>
-          <p>Monitora pensamentos negativos e desenvolve resiliência.</p>
-          <a href="https://cingulo.com/" target="_blank">Saiba mais</a>
-        </div>
-        <div class="app">
-          <h3 class="h3-com-icone">
-            <img src="icons/daylio.webp" alt="Outro ícone">Daylio</h3>
-          <p>Diário digital para registrar emoções e progressos pessoais.</p>
-          <a href="https://daylio.net/" target="_blank">Saiba mais</a>
-        </div>
-        <div class="app">
-          <h3 class="h3-com-icone">
-            <img src="icons/headspace.webp" alt="Outro ícone">Headspace</h3>
-          <p>Plataforma de meditação guiada e mindfulness.</p>
-          <a href="https://www.headspace.com/" target="_blank">Saiba mais</a>
-        </div>
-        <div class="app">
-          <h3 class="h3-com-icone">
-            <img src="icons/calm.webp" alt="Outro ícone">Calm</h3>
-          <p>Aquiete a mente. Mude sua vida.</p>
-          <a href="https://www.calm.com/pt" target="_blank">Saiba mais</a>
-        </div>
-        <div class="app">
-          <h3 class="h3-com-icone">
-            <img src="icons/buddhify.webp" alt="Outro ícone">Buddhify</h3>
-          <p>Meditação durante as tarefas do seu dia a dia.</p>
-          <a href="https://buddhify.com/" target="_blank">Saiba mais</a>
-        </div>
-        <div class="app">
-          <h3 class="h3-com-icone">
-            <img src="icons/conversaCmg.webp" alt="Outro ícone">Conversa Comigo</h3>
-          <p>Permite conversar com especialistas para melhorar a saúde mental e emocional.</p>
-          <a href="https://www.conversacomigo.com.br/" target="_blank">Saiba mais</a>
-        </div>
-      </div>
-    </section>
+            <div class="accordion-container">
+                <div class="accordion-item">
+                    <button class="accordion-header">
+                        <i class="fas fa-trash-alt icon-app"></i>
+                        <span>Lixo ou Entulho no Lugar Errado</span>
+                        <i class="fas fa-chevron-down arrow"></i>
+                    </button>
+                    <div class="accordion-content">
+                        <ol class="step-by-step">
+                            <li><strong>ABRA O APLICATIVO/SITE:</strong></li>
+                            <li><strong>PROCURE O SERVIÇO:</strong> Clique em "Coleta de Lixo", depois em "Reportar Atraso na Coleta de Lixo". Agora escolha a opção que melhor se encaixa no seu problema.</li>
+                            <li><strong>DESCREVA O PROBLEMA:</strong> Informe o endereço completo. Descreva a ocorrência (sacos de lixo, móveis velhos, entulho).
+                                <strong>DICA:</strong> Se puder, tire uma foto e envie junto!</li>
+                            <li><strong>ANOTE O PROTOCOLO!</strong> Guarde bem o número do seu pedido.</li>
+                        </ol>
+                    </div>
+                </div>
 
-    <!-- Artigos Section -->
-    <section id="artigos" class="section artigo">
-      <h2><i class="fa-solid fa-newspaper"></i> Artigos/Notícias sobre Saúde Mental</h2>
-      <ul>
-        <li>
-          <article>
-            <a href="https://www.terra.com.br/noticias/saude-mental-estudo-mostra-que-isolamento-social-tambem-pode-aliviar-sintomas-de-ansiedade-e-depressao,fe8493ee155de025380c5ebb73da22fe4xhxciez.html" target="_blank"><h3>Saúde mental: estudo mostra que isolamento social também pode aliviar sintomas de ansiedade e depressão</h3></a>
-            <p>Pesquisa com cobaias mostra que o isolamento social geralmente piora o estado emocional de indivíduos comuns, mas melhora significativamente o comportamento dos mais ansiosos</p>
-          </article>
-        </li>
-        
-        <li>
-          <article>
-            <a href="https://veja.abril.com.br/saude/qual-a-relacao-entre-as-redes-sociais-e-a-saude-mental-dos-adolescentes/" target="_blank"><h3>Qual a relação entre as redes sociais e a saúde mental dos adolescentes?</h3></a>
-            <p>Pesquisa joga luz sobre os hábitos online de jovens com transtornos psiquiátricos</p>
-          </article>
-        </li>
-        <li>
-          <article>
-            <a href="https://www.ipea.gov.br/atlasviolencia/artigo/240/prevenindo-conflitos-sociais-violentos-em-tempos-de-pandemia-garantia-da-renda-manutencao-da-saude-mental-e-comunicacao-efetiva#:~:text=Toggle%20navigation-,Prevenindo%20conflitos%20sociais%20violentos%20em%20tempos%20de%20pandemia%3A%20Garantia%20da,que%20buscam%20minimizar%20seus%20danos" target="_blank"><h3>Prevenindo conflitos sociais violentos em tempos de pandemia</h3></a>
-            <p>Garantia da renda, manutenção da saúde mental e comunicação efetiva</p>
-          </article>
-        </li>
-        <li>
-          <article>
-            <a href="https://catalogo.ipea.gov.br/uploads/268_1.pdf" target="_blank"><h3>Cadernos HumanizaSUS</h3></a>
-            <p>Cadernos HumanizaSUS - Saúde Mental - Ministério da Saúde</p>
-          </article>
-        </li>
-        <li>
-          <article>
-            <a href="https://pubmed.ncbi.nlm.nih.gov/32132255/" target="_blank"><h3>The Impact of Social Media on Youth Mental Health: Challenges and Opportunities</h3></a>
-            <p>Research is beginning to uncover how specific social media experiences may influence youth mental health.</p>
-          </article>
-        </li>
-        <li>
-          <article>
-            <a href="https://rsdjournal.org/index.php/rsd/article/view/17800" target="_blank"><h3>Adolescents in the Digital Age: Impacts on Mental Health </h3></a>
-            <p>There is a need for a joint action of schools, parents, guardians and the community in general to develop actions that clearly address the risks of the virtual world</p>
-          </article>
-        </li>
-    </ul>
-    </section>
+                <div class="accordion-item">
+                    <button class="accordion-header">
+                        <i class="fas fa-road-circle-xmark icon-app"></i>
+                        <span>Buraco na Rua/Calçada</span>
+                        <i class="fas fa-chevron-down arrow"></i>
+                    </button>
+                    <div class="accordion-content">
+                        <ol class="step-by-step">
+                            <li><strong>ABRA O APLICATIVO/SITE:</strong></li>
+                            <li><strong>PROCURE O SERVIÇO:</strong> Clique em "Solicitação de Serviços", depois em "Mobilidade Urbana". Agora escolha a opção que melhor se encaixa no seu problema.</li>
+                            <li><strong>DESCREVA O PROBLEMA:</strong> Informe o endereço completo. Descreva a ocorrência.
+                                <strong>DICA:</strong> Se puder, tire uma foto e envie junto!</li>
+                            <li><strong>ANOTE O PROTOCOLO!</strong> Guarde bem o número do seu pedido.</li>
+                        </ol>
+                    </div>
+                </div>
 
-    
+                <div class="accordion-item">
+                    <button class="accordion-header">
+                        <i class="far fa-lightbulb icon-app"></i>
+                        <span>Falta de Luz em Poste</span>
+                        <i class="fas fa-chevron-down arrow"></i>
+                    </button>
+                    <div class="accordion-content">
+                        <ol class="step-by-step">
+                            <li><strong>ABRA O APLICATIVO/SITE:</strong></li>
+                            <li><strong>PROCURE O SERVIÇO:</strong> Clique em "Solicitação de Serviços", depois em "Iluminação Pública", e, por fim em "Abrir Chamado".</li>
+                            <li><strong>DESCREVA O PROBLEMA:</strong> Informe o endereço completo. Descreva a ocorrência.
+                                <strong>DICA:</strong> Se puder, tire uma foto e envie junto!</li>
+                            <li><strong>ANOTE O PROTOCOLO!</strong> Guarde bem o número do seu pedido.</li>
+                        </ol>
+                    </div>
+                </div>
 
+                <div class="accordion-item">
+                    <button class="accordion-header">
+                        <i class="fas fa-tree icon-app"></i>
+                        <span>Problemas com Árvores (Poda, Risco)</span>
+                        <i class="fas fa-chevron-down arrow"></i>
+                    </button>
+                    <div class="accordion-content">
+                        <ol class="step-by-step">
+                            <li><strong>ABRA O APLICATIVO/SITE:</strong></li>
+                            <li><strong>PROCURE O SERVIÇO:</strong> Clique em "Solicitação de Serviços", depois em "Árvores". Agora escolha a opção que melhor se encaixa no seu problema.</li>
+                            <li><strong>DESCREVA O PROBLEMA:</strong> Informe o endereço completo. Descreva a ocorrência.
+                                <strong>DICA:</strong> Se puder, tire uma foto e envie junto!</li>
+                            <li><strong>ANOTE O PROTOCOLO!</strong> Guarde bem o número do seu pedido.</li>
+                        </ol>
+                    </div>
+                </div>
+                 <div class="accordion-item">
+                    <button class="accordion-header">
+                        <i class="fas fa-car-burst icon-app"></i>
+                        <span>Veículo Abandonado</span>
+                        <i class="fas fa-chevron-down arrow"></i>
+                    </button>
+                    <div class="accordion-content">
+                        <ol class="step-by-step">
+                            <li><strong>ABRA O APLICATIVO/SITE:</strong></li>
+                            <li><strong>PROCURE O SERVIÇO:</strong> Clique em "Solicitação de Serviços", depois em "Fiscalização" e, por fim, "Veículo Abandonado".</li>
+                            <li><strong>DESCREVA O PROBLEMA:</strong> Informe o endereço completo. Descreva a ocorrência.
+                                <strong>DICA:</strong> Se puder, tire uma foto e envie junto!</li>
+                            <li><strong>ANOTE O PROTOCOLO!</strong> Guarde bem o número do seu pedido.</li>
+                        </ol>
+                    </div>
+                </div>
+                 <div class="accordion-item">
+                    <button class="accordion-header">
+                        <i class="fas fa-water icon-app"></i>
+                        <span>Vazamento de Água/Esgoto na Rua</span>
+                        <i class="fas fa-chevron-down arrow"></i>
+                    </button>
+                    <div class="accordion-content">
+                        <ol class="step-by-step">
+                            <li><strong>ABRA O APLICATIVO/SITE:</strong></li>
+                            <li><strong>PROCURE O SERVIÇO:</strong> Clique em "Solicitação de Serviços", depois em "Água e Esgoto" e, por fim, "Vazamento de Água".</li>
+                            <li><strong>DESCREVA O PROBLEMA:</strong> Informe o endereço completo. Descreva a ocorrência.
+                                <strong>DICA:</strong> Se puder, tire uma foto e envie junto!</li>
+                            <li><strong>ANOTE O PROTOCOLO!</strong> Guarde bem o número do seu pedido.</li>
+                        </ol>
+                    </div>
+                </div>
+                 <div class="accordion-item">
+                    <button class="accordion-header">
+                        <i class="fas fa-mosquito icon-app"></i>
+                        <span>Controle de Dengue</span>
+                        <i class="fas fa-chevron-down arrow"></i>
+                    </button>
+                    <div class="accordion-content">
+                        <ol class="step-by-step">
+                            <li><strong>ABRA O APLICATIVO/SITE:</strong></li>
+                            <li><strong>PROCURE O SERVIÇO:</strong> Clique em "Dengue".</li>
+                            <li><strong>DESCREVA O PROBLEMA:</strong> Informe o endereço completo. Descreva a ocorrência.
+                                <strong>DICA:</strong> Se puder, tire uma foto e envie junto!</li>
+                            <li><strong>ANOTE O PROTOCOLO!</strong> Guarde bem o número do seu pedido.</li>
+                        </ol>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <button class="accordion-header">
+                        <i class="fas fa-notes-medical icon-app"></i>
+                        <span>Agendar Consulta</span>
+                        <i class="fas fa-chevron-down arrow"></i>
+                    </button>
+                    <div class="accordion-content">
+                        <ol class="step-by-step">
+                            <li><strong>ABRA O APLICATIVO/SITE:</strong></li>
+                            <li><strong>PROCURE O SERVIÇO:</strong> Clique em "Saúde", depois em "Agende Suas Consultas".</li>
+                            <li><strong>DESCREVA:</strong> Informe o tipo de consulta que você necessita.</li>
+                        </ol>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <button class="accordion-header">
+                        <i class="fas fa-dog icon-app"></i>
+                        <span>Denúncie Maus Tratos a Animais</span>
+                        <i class="fas fa-chevron-down arrow"></i>
+                    </button>
+                    <div class="accordion-content">
+                        <ol class="step-by-step">
+                            <li><strong>ABRA O APLICATIVO/SITE:</strong></li>
+                            <li><strong>PROCURE O SERVIÇO:</strong> Clique em "Solicitação de Serviços", depois em "Animais" e, por fim, em Animais - Maus Tratos (denúncia). </li>
+                            <li><strong>DESCREVA O PROBLEMA:</strong> Informe o endereço completo. Descreva a ocorrência.
+                                <strong>DICA:</strong> Se quiser, você pode marcar a opção "Reclamação Sigilosa".</li>
+                            <li><strong>ANOTE O PROTOCOLO!</strong> Guarde bem o número do seu pedido.</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+            
+        </section>
 
-    <!-- Recursos Adicionais Section -->
-    <section id="recursos" class="section">
-      <h2><i class="fa-solid fa-globe"></i> Recursos Adicionais</h2>
-      <ul>
-        <li><a href="https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/s/saude-mental" target="_blank">Saúde Mental - Ministério da Saúde</a></li>
-        <li><a href="https://prefeitura.poa.br/carta-de-servicos/saude-mental" target="_blank">Saúde Mental - Prefeitura de Porto Alegre</a></li>
-        <li><a href="https://www.paho.org/pt/topicos/saude-mental" target="_blank">Saúde Mental - OMS</a></li>
-      </ul>
-    </section>
-  </main>
+        <section id="resolvidos" class="content-section">
+            <h2><i class="fas fa-check-circle"></i> Sucessos da Comunidade: Problemas Resolvidos!</h2>
+            <p>Veja exemplos de problemas que foram reportados e solucionados pela prefeitura graças à participação da comunidade.</p>
 
-  <!-- Rodapé -->
-  <footer>
-    <p class="disclaimer">Este material é informativo e não substitui a avaliação ou tratamento profissional.</p>
-    <p>Projeto de Extensão - Cruzeiro do Sul Virtual (UNICID) - 2025</p>
-    <p>Realizado por Paulo Roberto Furtado de Oliveira</p>
-    <p><a href="mailto:paulo.oliveira992@cs.unicid.edu.br">paulo.oliveira992@cs.unicid.edu.br</a></p>
-  </footer>
+            <div class="resolved-grid">
+                <div class="resolved-item">
+                    <h3>Lixo Removido na Avenida Industriários</h3>
+                    <div class="before-after-container">
+                        <div class="image-block">
+                            <img src="img/antes-lixo.jpg" alt="Antes: Lixo na Avenida">
+                            <p class="caption">ANTES</p>
+                        </div>
+                        <div class="image-block">
+                            <img src="img/depois-lixo.jpg" alt="Depois: Avenida Limpa">
+                            <p class="caption">DEPOIS</p>
+                        </div>
+                    </div>
+                    <p class="resolved-description">Moradores reportaram o despejo de resto de obra no canteiro da Av. Industriários através do app da prefeitura. Em poucos dias, a equipe de limpeza removeu tudo!</p>
+                </div>
 
-  <script src="script.js"></script>
+                <div class="resolved-item">
+                    <h3>Galho Caído na Pista do Parque Alim Pedro</h3>
+                     <div class="before-after-container">
+                        <div class="image-block">
+                            <img src="img/antes-pista.jpg" alt="Antes: Lixo Pista">
+                            <p class="caption">ANTES</p>
+                        </div>
+                        <div class="image-block">
+                            <img src="img/depois-pista.jpg" alt="Depois: Pista Limpa">
+                            <p class="caption">DEPOIS</p>
+                        </div>
+                    </div>
+                    <p class="resolved-description">Frequentadores do parque reportaram o galho caído através do aplicativo da prefeitura. Foi recolhido em poucos dias!</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="dicas" class="content-section">
+            <h2><i class="fas fa-lightbulb"></i> Dicas Importantes e Outras Formas de Ajudar</h2>
+            <ul>
+                <li><strong><i class="fas fa-phone-alt"></i> Prefere o Telefone?</strong> Muitas prefeituras têm um número, como o <strong>156</strong>. Ligue e informe o problema! Anote o protocolo também.</li>
+                <li><strong><i class="fas fa-comment-dots"></i> Seja Claro e Educado:</strong> Ao descrever o problema, dê o máximo de detalhes de forma clara.</li>
+                <li><strong><i class="fas fa-camera-retro"></i> Foto Vale Mais que Mil Palavras:</strong> Sempre que possível, envie uma foto do problema.</li>
+                <li><strong><i class="fas fa-hourglass-half"></i> Paciência e Persistência:</strong> A solução pode demorar. Se não resolverem, com o protocolo em mãos, ligue novamente ou procure a Ouvidoria da Prefeitura.</li>
+                <li><strong><i class="fas fa-hands-helping"></i> Não Tenha Medo de Pedir Ajuda:</strong> Se tiver dificuldade, peça para um familiar, amigo ou vizinho.</li>
+            </ul>
+        </section>
+
+        <section id="acompanhar-solicitacoes" class="content-section">
+            <h2><i class="fas fa-tasks"></i> Como Acompanhar Suas Solicitações?</h2>
+            <p>Após registrar um problema e anotar o número de protocolo, você geralmente pode acompanhar o andamento da seguinte forma:</p>
+            <ul>
+                <li><strong>No próprio Aplicativo/Site da Prefeitura:</strong> Faça Login e clique em "Ver meu histórico de solicitações".</li>
+                <li><strong>Por Telefone (ex: 156):</strong> Informe o número do protocolo ao atendente para obter informações.</li>
+                <li><strong>Ouvidoria:</strong> Se a solicitação não for atendida no prazo ou se a resposta não for satisfatória, você pode contatar a Ouvidoria do Município através do aplicativo/site, informando o protocolo original.</li>
+            </ul>
+            <p><strong>Lembre-se:</strong> A prefeitura tem prazos para cada tipo de serviço. É importante ser persistente e educado ao cobrar uma solução.</p>
+        </section>
+
+        <section id="painel" class="content-section">
+            <h2><i class="far fa-newspaper"></i> Painel do Bairro</h2>
+            <p>Fique por dentro das ações na nossa comunidade!</p>
+            <div class="news-grid">
+                <article class="news-item">
+                    <h4>Pratique Ginástica</h4>
+                    <p><strong>Manhã</strong><br>Terças e Quintas - Das 08:30 às 09:30<br>Sextas - Das 10:00 às 11:00 (Gin. Chinesa)</p>
+                    <p><strong>Tarde</strong><br>Terças e Quintas - Das 14:30 às 15:30</p>
+                    <p><strong>Noite</strong><br>Segundas e Quartas - Das 18:15 às 19:15</p>
+                    <p><strong>Inscrições abertas na Secretaria do Parque</strong></p>
+                    <small>Publicado em 07/05/25</small>
+                </article>
+                <article class="news-item">
+                    <h4>Não dê moleza pra Dengue!</h4>
+                    <p>Para evitar a proliferação da doença, cada um deve fazer a sua parte.</p>
+                    <p><strong>Fique atento aos sintomas da doença:</strong><br>Mal-estar geral<br>Dor de cabeça<br>Dor atrás dos olhos<br>Febre alta (39ºC a 40ºC)<br>Dor nas articulações<br>Manchas vermelhas na pela (com ou sem coceira).</p>
+                    <p><strong>Em caso de dúvida, procure a sua unidade de saúde.</strong></p>
+                    <small>Publicado em 07/04/25</small>
+                </article>
+                <article class="news-item">
+                    <h4>Oficina de Desenho</h4>
+                    <p><strong>Terças</strong><br>Das 14:00 às 16:30</p>
+                    <p>Faixa Etária - A partir de 7 anos</p>
+                    <p><strong>Inscrições abertas na Secretaria do Parque</strong></p>
+                    <small>Publicado em 02/04/25</small>
+                </article>
+                <article class="news-item">
+                    <h4>Futebol</h4>
+                    <p><strong>Terças e Quintas</strong><br>Manhã - 06 a 11 anos - Das 10 às 11:15<br>Tarde - 12 a 14 anos - Das 15:30 às 16:45</p>
+                    <p><strong>Inscrições abertas na Secretaria do Parque</strong></p>
+                    <small>Publicado em 15/03/25</small>
+                </article>
+                
+            </div>
+        </section>
+
+        <section id="iniciativas" class="content-section">
+            <h2><i class="fas fa-handshake-angle"></i> Participe de Outras Iniciativas da Comunidade</h2>
+            <p>Além de reportar problemas, existem outras formas de contribuir para um bairro melhor:</p>
+            <div class="initiatives-grid">
+                <article class="initiative-item">
+                    <h4>Mutirões de Limpeza do Parque</h4>
+                    <p>Fique atento aos avisos no parque ou em grupos de moradores sobre mutirões voluntários para limpeza e conservação de áreas comuns.</p>
+                </article>
+                <article class="initiative-item">
+                    <h4>Grupos de Vizinhança Colaborativa</h4>
+                    <p>Participe de grupos de WhatsApp ou redes sociais do bairro para trocar informações, discutir melhorias e organizar ações conjuntas.</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="faq" class="content-section">
+            <h2><i class="far fa-question-circle"></i> Perguntas Frequentes (FAQ)</h2>
+            <dl>
+                <dt>1. O que faço se eu não tiver smartphone ou acesso à internet?</dt>
+                <dd>Você pode usar o telefone (ex: 156) ou pedir ajuda a um familiar, amigo ou vizinho que tenha acesso. Você também pode visitar pontos de acesso público à internet, se disponíveis na sua cidade, como bibliotecas ou centros comunitários.</dd>
+
+                <dt>2. A prefeitura realmente resolve os problemas reportados online?</dt>
+                <dd>A efetividade pode variar, mas reportar pelos canais oficiais é a forma correta de registrar sua demanda e gerar dados para a prefeitura. Se não houver solução, use o protocolo para cobrar ou recorrer à Ouvidoria. Este site busca dar visibilidade e incentivar a participação para que juntos possamos pressionar por melhorias.</dd>
+
+                <dt>3. Onde encontro o número do protocolo?</dt>
+                <dd>Ele é fornecido ao final do registro da sua solicitação no site/app da prefeitura ou pelo atendente do telefone.</dd>
+
+                <dt>4. Este site é da prefeitura?</dt>
+                <dd>Não. Este site é uma iniciativa para o Projeto de Extensão "Tecnologia Cívica - Usando a Internet para Melhorar o Bairro" desenvolvido para o curso de Sistemas para Internet na Cruzeiro do Sul Virtual (UNICID), com o objetivo de ajudar a comunidade a acessar os canais oficiais e promover o engajamento cívico.</dd>
+
+                <dt>5. Como posso ajudar este projeto?</dt>
+                <dd>Compartilhe este site com seus vizinhos, ajude quem tem dificuldade com a tecnologia e, principalmente, use os canais da prefeitura para reportar os problemas do bairro.</dd>
+            </dl>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Projeto de Extensão "Tecnologia Cívica - Usando a Internet para Melhorar o Bairro"</p>
+        <p>Cruzeiro do Sul Virtual (UNICID) - 2025.</p>
+        <p><small>Iniciativa alinhada aos Objetivos de Desenvolvimento Sustentável (ODS) da ONU: <br> ODS 11 (Cidades e Comunidades Sustentáveis) e ODS 16 (Paz, Justiça e Instituições Eficazes)</small></p>
+    </footer>
+
+    <button id="backToTopBtn" title="Voltar ao topo"><i class="fas fa-arrow-up"></i></button>
+
+    <script src="script.js"></script>
 </body>
 </html>
